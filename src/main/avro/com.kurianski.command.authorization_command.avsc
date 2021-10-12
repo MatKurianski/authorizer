@@ -1,0 +1,19 @@
+{
+  "namespace": "com.kurianski.command",
+  "name": "AuthorizationCommand",
+  "type": "record",
+  "fields": [
+    {
+      "name": "transaction_id",
+      "type": "string"
+    },
+    {
+      "name": "account_id",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    }
+  ]
+}

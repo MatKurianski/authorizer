@@ -1,0 +1,28 @@
+{
+  "namespace": "com.kurianski.response",
+  "name": "AuthorizationProcessed",
+  "type": "record",
+  "fields": [
+    {
+      "name": "transaction_id",
+      "type": "string"
+    },
+    {
+      "name": "account_id",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    },
+    {
+      "name": "account_balance",
+      "type": ["null","double"],
+      "default": null
+    },
+    {
+      "name": "result",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+aws dynamodb create-table --table-name balance --key-schema AttributeName=account_id,KeyType=HASH  --attribute-definitions AttributeName=account_id,AttributeType=S --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5 --endpoint-url http://localhost:7000
