@@ -1,8 +1,6 @@
-package com.kurianski.authorizer.application.service;
+package com.kurianski.authorizer.application.in;
 
-import com.kurianski.authorizer.adapter.in.AuthorizationInputPort;
-import com.kurianski.authorizer.application.datastore.AccountBalanceOutputPort;
-import com.kurianski.authorizer.domain.AccountBalance;
+import com.kurianski.authorizer.application.out.AccountBalanceOutputPort;
 import com.kurianski.authorizer.domain.AuthorizationRequest;
 import com.kurianski.authorizer.domain.AuthorizationResult;
 import io.smallrye.mutiny.Uni;

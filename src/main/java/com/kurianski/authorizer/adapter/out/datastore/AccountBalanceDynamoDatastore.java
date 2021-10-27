@@ -1,7 +1,7 @@
 package com.kurianski.authorizer.adapter.out.datastore;
 
 import com.kurianski.authorizer.domain.factory.AuthorizationResultFactory;
-import com.kurianski.authorizer.application.datastore.AccountBalanceOutputPort;
+import com.kurianski.authorizer.application.out.AccountBalanceOutputPort;
 import com.kurianski.authorizer.domain.AccountBalance;
 import com.kurianski.authorizer.domain.AuthorizationRequest;
 import com.kurianski.authorizer.domain.AuthorizationResult;

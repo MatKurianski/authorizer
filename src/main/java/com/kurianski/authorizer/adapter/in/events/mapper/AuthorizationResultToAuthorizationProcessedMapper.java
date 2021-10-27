@@ -1,4 +1,4 @@
-package com.kurianski.authorizer.adapter.out.mapper;
+package com.kurianski.authorizer.adapter.in.events.mapper;
 
 import com.kurianski.authorizer.domain.AccountBalance;
 import com.kurianski.authorizer.domain.AuthorizationResult;

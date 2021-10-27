@@ -1,4 +1,4 @@
-package com.kurianski.authorizer.application.datastore;
+package com.kurianski.authorizer.application.out;
 
 import com.kurianski.authorizer.domain.AuthorizationRequest;
 import com.kurianski.authorizer.domain.AuthorizationResult;

@@ -1,8 +1,8 @@
-package com.kurianski.authorizer.adapter.out.events;
+package com.kurianski.authorizer.adapter.in.events;
 
-import com.kurianski.authorizer.adapter.in.AuthorizationInputPort;
-import com.kurianski.authorizer.adapter.out.mapper.AuthorizationCommandToAuthorizationRequestMapper;
-import com.kurianski.authorizer.adapter.out.mapper.AuthorizationResultToAuthorizationProcessedMapper;
+import com.kurianski.authorizer.application.in.AuthorizationInputPort;
+import com.kurianski.authorizer.adapter.in.events.mapper.AuthorizationCommandToAuthorizationRequestMapper;
+import com.kurianski.authorizer.adapter.in.events.mapper.AuthorizationResultToAuthorizationProcessedMapper;
 import com.kurianski.command.AuthorizationCommand;
 import com.kurianski.response.AuthorizationProcessed;
 import io.smallrye.mutiny.Uni;

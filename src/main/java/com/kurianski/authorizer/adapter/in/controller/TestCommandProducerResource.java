@@ -1,4 +1,4 @@
-package com.kurianski.authorizer.adapter.out.controller;
+package com.kurianski.authorizer.adapter.in.controller;
 
 import com.kurianski.command.AuthorizationCommand;
 import org.eclipse.microprofile.reactive.messaging.Channel;

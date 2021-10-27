@@ -1,4 +1,4 @@
-package com.kurianski.authorizer.adapter.in;
+package com.kurianski.authorizer.application.in;
 
 import com.kurianski.authorizer.domain.AuthorizationRequest;
 import com.kurianski.authorizer.domain.AuthorizationResult;
